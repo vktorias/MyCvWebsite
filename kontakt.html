@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <h1><strong>Viktoria Wallström</strong></h1>
+        </div>
+        <ul class="menu-links">
+          <li><a href="index.html">Hem</a></li>
+          <li><a href="om-mig.html">Om mig</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="kontakt.html" class="active">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="contact-text">
+        <h1>Kontakt</h1>
+        <p>Ta gärna kontakt med mig här vid frågor och funderingar</p>
+        <p>eller om du bara vill säga hej!</p>
+      </div>
+      <div class="contact-container">
+        <img
+          class="contact-image"
+          src="image/viktoria-kontakt.jpg"
+          alt="Bild på Viktoria Wallström"
+        />
+        <form class="form-container">
+          <label for="name">*Namn:</label>
+          <input type="text" placeholder="Namn..." id="name" name="name" />
+
+          <label for="email">*Epost:</label>
+          <input type="email" placeholder="Epost..." id="email" name="email" />
+
+          <label for="number">*Telefon:</label>
+          <input
+            type="number"
+            placeholder="Telefon..."
+            id="number"
+            name="number"
+          />
+
+          <label for="message">*Meddelande:</label>
+          <textarea
+            id="message"
+            placeholder="Skriv här..."
+            name="message"
+            maxlength="250"
+          ></textarea>
+          <p id="word-count-message">Max 250 tecken.</p>
+          <div class="row">
+            <input type="reset" value="Rensa" />
+            <input type="submit" value="Skicka" />
+          </div>
+          <p>* Obligatoriska fält</p>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; Viktoria Wallström 2024</p>
+    </footer>
+  </body>
+</html>
